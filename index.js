@@ -2,7 +2,7 @@
 
 const FauxMo = require('fauxmojs');
 const request = require('request-promise');
-const server = 'http://192.168.1.65:8000';
+const server = 'http://alarm-pi.local:8000';
 
 let fauxMo = new FauxMo(
   {
